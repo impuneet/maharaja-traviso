@@ -252,7 +252,8 @@ img.float-right {
     display: table;
     margin: 0 auto;
 }
-.page-content .logo img {
+.page-content .logo img 
+{
     margin: 0 auto;
 }
 .container-fluid.padding-0 .row {
@@ -554,8 +555,9 @@ a.more-details .fa{
     from { background-color: rgba(0,0,0,0.0); }
     to { background-color: rgba(0,0,0,0.90); }
 }
-.resize-header .logo {
-    margin: 10px 0;
+.resize-header .logo
+ {
+    height:80px;
 }
 .resize-header .logo img {
     max-width: 100%;
@@ -590,8 +592,10 @@ a.more-details .fa{
 .main-nav .row {
     margin-bottom: 0;
 }
-.logo {
-    margin: 30px 0;
+.logo 
+{
+    width:250px;
+    float: left;
 }
 #header .nav-left .navbar-header {
     float: left;
@@ -736,8 +740,12 @@ a.more-details .fa{
 /* ==========================================================================
     5. PAGE TITLE
     ========================================================================= */
-.page-title.custom-img-background {
-    padding-top: 275px;
+.page-title {
+    height:600px;
+}
+.maharaj-pad
+{
+    padding-top:240px!important;
 }
 .page-title {
     padding-top: 275px;
@@ -781,7 +789,7 @@ a.more-details .fa{
 .custom-img-background {
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 100px;
+    padding-top:50px;
 }
 .custom-background.bkg-grey {
     background-color: #fdfdfc !important;
@@ -905,7 +913,7 @@ a.more-details .fa{
 .frame-box {
     background-color: #fff;
     border: 17px solid #131822;
-    padding: 125px 80px;
+    padding:0px 30px;
     box-shadow: 0 0 18px 7px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 0 18px 7px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0 0 18px 7px rgba(0,0,0,0.3);
@@ -917,8 +925,9 @@ a.more-details .fa{
 .frame-box .custom-heading {
     padding-left: 0 !important;
 }
-.frame-box.custom-img-background .custom-heading {
-    margin-bottom: 50px;
+.frame-box.custom-img-background .custom-heading 
+{
+    margin-bottom: 10px;
 }
 
 
@@ -1119,7 +1128,6 @@ a.more-details .fa{
 .custom-heading,
 .custom-img-background .open-table-widget-style-1 .custom-heading{
     position: relative;
-    margin-bottom: 50px;
 }
 .custom-img-background .open-table-widget-style-1 {
     padding-left: 30px;
@@ -1821,16 +1829,18 @@ ul#filters {
 .menu-style-1 .menu-item-description p{
     font-size: 14px;
     line-height: 22px;
+    padding:0!important;
 }
 .menu-style-1 .menu-item-price {
     float: right;
     width: 82px;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
+    margin-top:25px;
 }
 .menu-style-1 .menu-item-price p{
-    font-size: 40px;
-    padding: 35px 0;
+    font-size:24px;
+    padding:20px 0;
     text-align: center;
 }
 .menu-left-shadow {
