@@ -381,9 +381,7 @@ All this is done for any sub-level being entered.
     .page-content .row{
         margin-bottom: 0px;
     }
-    .page-content *[class*="col-"] {
-        margin-bottom: 80px;
-    }
+    
     *[class*="col-"] *[class*="col-"]{
         margin-left: 0 !important;
     }
@@ -780,7 +778,7 @@ All this is done for any sub-level being entered.
         margin-bottom: 0px;
     }
     .page-content *[class*="col-"] {
-        margin-bottom: 80px;
+        margin-bottom: 30px;
     }
     *[class*="col-"] *[class*="col-"]{
         margin-left: 0 !important;
@@ -798,7 +796,7 @@ All this is done for any sub-level being entered.
         background-color: rgba(0,0,0,1.0);
     }
     #header-wrapper + *{
-        margin-top: 0 !important;
+        margin-top: 20px !important;
     }
 
 
@@ -1169,7 +1167,7 @@ All this is done for any sub-level being entered.
         margin-bottom: 0px;
     }
     .page-content *[class*="col-"] {
-        margin-bottom: 80px;
+      
     }
     *[class*="col-"] *[class*="col-"]{
         margin-left: 0 !important;
@@ -1507,9 +1505,7 @@ All this is done for any sub-level being entered.
     .page-content .row{
         margin-bottom: 0px;
     }
-    .page-content *[class*="col-"] {
-        margin-bottom: 80px;
-    }
+   
     *[class*="col-"] *[class*="col-"]{
         margin-left: 0 !important;
     }
@@ -1767,4 +1763,21 @@ All this is done for any sub-level being entered.
     .menu-left-shadow:before {
         display: none;
     }
+    
+    .mobile_logo{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .mobile_logo { display:block; width:100%; height:auto; float:left; text-align:center; }
+} 
+
+
+@media screen and (max-width: 992px) {
+
+.mobile_logo {
+    display:none;
+}
 }

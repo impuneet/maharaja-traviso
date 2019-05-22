@@ -1,7 +1,7 @@
 
 .bs-slider{
     overflow: hidden;
-    max-height:600px;
+    max-height:730px;
     position: relative;
 
 }
@@ -241,7 +241,7 @@
 
 .slide-text {
     left: 0;
-    top:23%;
+    top:28%;
     right: 0;
     margin: auto;
     padding: 10px;
@@ -255,10 +255,10 @@
     
     padding: 0;
     color: #ffffff;
-    font-size: 70px;
+    font-size:56px;
     font-style: normal;
     line-height: 84px;
-    margin-bottom: 30px;
+    margin-bottom:20px;
     letter-spacing: 1px;
     display: inline-block;
     -webkit-animation-delay: 0.7s;
